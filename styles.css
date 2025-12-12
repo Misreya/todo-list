@@ -1,0 +1,145 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, strong, em {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  background: none;
+  border: none;
+}
+
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+ol, ul, menu, a {
+  list-style: none;
+ text-decoration: none;
+}
+
+:root {
+    --variable: 1px;
+}
+
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.todo-app {
+  font-family: "Jua", sans-serif;
+  background-color: #71103f;
+  border-radius: 20px;
+  padding: 30px;
+  min-height: 515px;
+  height: fit-content;
+  width: 420px;
+}
+
+.addTask {
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 45px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  color: #3B051E;
+}
+
+h1 {
+  font-size: 30px;
+  color: #F67CAA;
+  margin-block-end: 25px;
+}
+
+li, .addTask {
+  background-color: #FDEDF1;
+  border-radius: 10px;
+  color: #3B051E;
+}
+
+li {
+  padding-block: 15px;
+  padding-inline: 20px;
+  width: 100%;
+  display: flex;
+}
+
+input {
+  padding-block: 15px;
+  padding-inline: 20px;
+  outline: none;
+}
+
+#add_task {
+  padding-block: 15px;
+  padding-inline: 20px;
+  border-radius: 10px;
+  background-color: #E92D88;
+  color: #71103f;
+  font-size: large;
+}
+
+#add_task:hover {
+  background-color:hsl(331, 81%, 45%);
+;
+  cursor: pointer;
+}
+
+::placeholder {
+color: #B0909D;
+}
+
+img {
+  max-height: 20px;
+  max-width: 20px;
+}
+
+.task div {
+  display: flex;
+  gap: 12px;
+}
+
+#checkbox {
+  height: 20px;
+  aspect-ratio: 1;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+span {
+  outline: none;
+}
