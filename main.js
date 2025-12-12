@@ -43,7 +43,7 @@ function addTask(task) {
     // div2.appendChild(editButton);
 
     const editButton = d.createElement('button');
-    editButton.innerHTML = `<img src='/icons/edit.png'>`;
+    editButton.innerHTML = `<img src='icons/edit.png'>`;
     editButton.classList.add('pointer');
     div2.appendChild(editButton);
 
@@ -53,7 +53,7 @@ function addTask(task) {
     // div2.appendChild(deleteButton);
 
     const deleteButton = d.createElement('button');
-    deleteButton.innerHTML = `<img src='/icons/delete.png'>`;
+    deleteButton.innerHTML = `<img src='icons/delete.png'>`;
     deleteButton.classList.add('pointer');
     div2.appendChild(deleteButton);
 
@@ -82,9 +82,10 @@ function addTask(task) {
             taskText.contentEditable = 'false';
             
         } else {
-            editButton.innerHTML = `<img src='/icons/check.png'>`;
+            editButton.innerHTML = `<img src='icons/check.png'>`;
             taskText.contentEditable = 'true';
         }
     });
+
 
 }
